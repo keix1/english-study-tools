@@ -2,9 +2,9 @@ import random
 
 conjunction = ['although / though / even though', 'while / whereas', 'because / since', 'while', 'if / when / provided that', 'unless', 'even if', 'once', 'unless']
 
-preposition = ['despite / in spite of', 'because of', 'due to', 'during', 'according to', 'in addition to / besides, moreover / furthermore', 'instead of']
+preposition = ['despite / in spite of', 'because of', 'due to', 'during', 'according to', 'in addition to / besides', 'instead of']
 
-adverb = ['nevertheless', 'therefore', 'even', 'instead']
+adverb = ['nevertheless', 'therefore', 'even', 'instead', 'moreover / furthermore']
 
 conjunction_dict = { v: 'c' for v in conjunction}
 preposition_dict = { v: 'p' for v in preposition}
